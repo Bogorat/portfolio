@@ -20,7 +20,6 @@ images:
       title: Nature scene 3
       description: Breathtaking natural vista showcasing environmental beauty.
       collections:
-        - featured
         - nature
     exif: {}
   - path: nature/nature-5.jpg
@@ -35,7 +34,6 @@ images:
       title: Nature scene 7
       description: Stunning natural landscape capturing environmental beauty.
       collections:
-        - featured
         - nature
     exif: {}
   - path: nature/nature-8.jpg
@@ -50,7 +48,6 @@ images:
       title: Travel scene 6
       description: null
       collections:
-        - featured
         - nature
     exif:
       captureDate: 2025-03-27T10:35:21.000Z
@@ -72,7 +69,6 @@ images:
       title: Street photography 1
       description: Urban scene capturing the essence of city life.
       collections:
-        - featured
         - street
     exif: {}
   - path: travel/travel-1.jpg
@@ -80,7 +76,6 @@ images:
       title: Travel scene 1
       description: Journey through remarkable destinations.
       collections:
-        - featured
         - travel
     exif: {}
   - path: nature/nature-1.jpg
@@ -96,6 +91,7 @@ images:
       description: ''
       collections:
         - Ary
+        - featured
     exif: {}
   - path: Ary/462365321_2922305531266820_2127497303084429553_n.jpg
     meta:
@@ -103,6 +99,7 @@ images:
       description: ''
       collections:
         - Ary
+        - featured
     exif: {}
   - path: Ary/494088987_3120983334732371_5344041519421604340_n.jpg
     meta:
@@ -110,6 +107,7 @@ images:
       description: ''
       collections:
         - Ary
+        - featured
     exif: {}
   - path: Ary/494776875_3123793064451398_586303117700196971_n.jpg
     meta:
@@ -117,6 +115,7 @@ images:
       description: ''
       collections:
         - Ary
+        - featured
     exif: {}
   - path: Ary/502538593_3156647594499278_2521879491670070799_n.jpg
     meta:
@@ -124,6 +123,7 @@ images:
       description: ''
       collections:
         - Ary
+        - featured
     exif: {}
   - path: Ary/504143123_3163541610476543_3105286634856334208_n.jpg
     meta:
@@ -131,6 +131,7 @@ images:
       description: ''
       collections:
         - Ary
+        - featured
     exif: {}
   - path: Ary/504228235_3167744650056239_6393655001539485151_n.jpg
     meta:
@@ -138,6 +139,7 @@ images:
       description: ''
       collections:
         - Ary
+        - featured
     exif: {}
   - path: Ary/504720884_3165589883605049_9050861081827432995_n.jpg
     meta:
@@ -145,6 +147,7 @@ images:
       description: ''
       collections:
         - Ary
+        - featured
     exif: {}
   - path: Ary/504956653_3165589863605051_5488371680450012855_n.jpg
     meta:
@@ -152,6 +155,7 @@ images:
       description: ''
       collections:
         - Ary
+        - featured
     exif: {}
   - path: Ary/505145404_3166679950162709_8341000279041218307_n.jpg
     meta:
@@ -159,6 +163,7 @@ images:
       description: ''
       collections:
         - Ary
+        - featured
     exif: {}
   - path: Ary/505310826_3167840790046625_6423917274038068831_n.jpg
     meta:
@@ -166,6 +171,7 @@ images:
       description: ''
       collections:
         - Ary
+        - featured
     exif: {}
   - path: Ary/505810348_3169091533254884_3409865282338147510_n.jpg
     meta:
@@ -173,4 +179,5 @@ images:
       description: ''
       collections:
         - Ary
+        - featured
     exif: {}
