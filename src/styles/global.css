@@ -52,13 +52,16 @@
 	.container-custom {
 		@apply max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8;
 	}
-
 	.nav-link {
 		@apply relative text-base font-medium text-gray-800 transition-all duration-300 hover:text-black;
 	}
 
 	.nav-link::after {
 		@apply content-[''] absolute w-0 h-[1px] bg-black bottom-[-2px] left-0 transition-all duration-300 ease-in-out;
+	}
+
+	.nav-link.text-white::after {
+		@apply bg-white;
 	}
 
 	.nav-link:hover::after {
