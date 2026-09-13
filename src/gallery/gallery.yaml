@@ -5,6 +5,8 @@ collections:
     name: Travel
   - id: street
     name: Street
+  - id: Ary
+    name: Ary
 images:
   - path: nature/nature-2.jpg
     meta:
@@ -87,4 +89,88 @@ images:
       description: ''
       collections:
         - nature
+    exif: {}
+  - path: Ary/462169930_2922175317946508_6140021918078273768_n.jpg
+    meta:
+      title: 462169930 2922175317946508 6140021918078273768 N
+      description: ''
+      collections:
+        - Ary
+    exif: {}
+  - path: Ary/462365321_2922305531266820_2127497303084429553_n.jpg
+    meta:
+      title: 462365321 2922305531266820 2127497303084429553 N
+      description: ''
+      collections:
+        - Ary
+    exif: {}
+  - path: Ary/494088987_3120983334732371_5344041519421604340_n.jpg
+    meta:
+      title: 494088987 3120983334732371 5344041519421604340 N
+      description: ''
+      collections:
+        - Ary
+    exif: {}
+  - path: Ary/494776875_3123793064451398_586303117700196971_n.jpg
+    meta:
+      title: 494776875 3123793064451398 586303117700196971 N
+      description: ''
+      collections:
+        - Ary
+    exif: {}
+  - path: Ary/502538593_3156647594499278_2521879491670070799_n.jpg
+    meta:
+      title: 502538593 3156647594499278 2521879491670070799 N
+      description: ''
+      collections:
+        - Ary
+    exif: {}
+  - path: Ary/504143123_3163541610476543_3105286634856334208_n.jpg
+    meta:
+      title: 504143123 3163541610476543 3105286634856334208 N
+      description: ''
+      collections:
+        - Ary
+    exif: {}
+  - path: Ary/504228235_3167744650056239_6393655001539485151_n.jpg
+    meta:
+      title: 504228235 3167744650056239 6393655001539485151 N
+      description: ''
+      collections:
+        - Ary
+    exif: {}
+  - path: Ary/504720884_3165589883605049_9050861081827432995_n.jpg
+    meta:
+      title: 504720884 3165589883605049 9050861081827432995 N
+      description: ''
+      collections:
+        - Ary
+    exif: {}
+  - path: Ary/504956653_3165589863605051_5488371680450012855_n.jpg
+    meta:
+      title: 504956653 3165589863605051 5488371680450012855 N
+      description: ''
+      collections:
+        - Ary
+    exif: {}
+  - path: Ary/505145404_3166679950162709_8341000279041218307_n.jpg
+    meta:
+      title: 505145404 3166679950162709 8341000279041218307 N
+      description: ''
+      collections:
+        - Ary
+    exif: {}
+  - path: Ary/505310826_3167840790046625_6423917274038068831_n.jpg
+    meta:
+      title: 505310826 3167840790046625 6423917274038068831 N
+      description: ''
+      collections:
+        - Ary
+    exif: {}
+  - path: Ary/505810348_3169091533254884_3409865282338147510_n.jpg
+    meta:
+      title: 505810348 3169091533254884 3409865282338147510 N
+      description: ''
+      collections:
+        - Ary
     exif: {}

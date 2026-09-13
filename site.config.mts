@@ -8,16 +8,11 @@ export interface SocialLink {
 }
 
 export default {
-	title: 'SR',
+	title: 'Arylide',
 	favicon: 'favicon.ico',
-	owner: 'Sara Richard',
-	profileImage: 'profile.webp',
+	owner: 'Arylide',
+	profileImage: 'profile.jpg',
 	socialLinks: [
-		{
-			name: 'GitHub',
-			url: 'https://github.com/rockem/astro-photography-portfolio',
-			icon: Github,
-		} as SocialLink,
 		{
 			name: 'Instagram',
 			url: 'https://www.instagram.com',
