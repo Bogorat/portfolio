@@ -8,9 +8,9 @@ export interface SocialLink {
 }
 
 export default {
-	title: 'Arylide',
+	title: 'arylide',
 	favicon: 'favicon.ico',
-	owner: 'Arylide',
+	owner: 'arylide',
 	profileImage: 'profile.jpg',
 	socialLinks: [
 		{
