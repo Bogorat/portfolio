@@ -34,7 +34,7 @@ const menuItems = [
 		<a href={base}
 			id="logo"
 			class="text-2xl md:text-4xl font-semibold tracking-tight"
-			:class="lightMode ? 'text-white' : ''">
+			:class="lightMode ? 'md:text-white' : ''">
 			{title}
 		</a>
 
@@ -45,7 +45,7 @@ const menuItems = [
 					<a
 						href={item.link}
 						class="nav-link"
-						:class="lightMode ? 'text-white hover:text-white/70' : ''"
+						:class="lightMode ? 'md:text-white md:hover:text-white/70' : ''"
 					>
 						{item.name}
 					</a>
@@ -57,7 +57,7 @@ const menuItems = [
 		<button
 			@click="isOpen = !isOpen"
 			class="md:hidden ml-auto focus:outline-none"
-			:class="lightMode ? 'text-white' : 'text-gray-800'"
+			:class="lightMode ? 'md:text-white text-gray-800' : 'text-gray-800'"
 		>
 			<svg x-show="!isOpen" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
 				<path
