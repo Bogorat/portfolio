@@ -79,4 +79,8 @@
 	.nav-link:hover::after {
 		@apply w-full;
 	}
+	.hero-subtitle {
+		font-family: 'Playfair Display', serif;
+		letter-spacing: 0.02em;
+	}
 }
