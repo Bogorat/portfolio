@@ -1,9 +1,11 @@
 ---
 import MainLayout from '../layouts/MainLayout.astro';
 import { Content as AboutPage } from '../content/about.md';
+import SocialIcon from '../components/SocialIcon.astro';
 import siteConfig from '../../site.config.mjs';
 
 const profileImage = siteConfig.profileImage;
+const socialLinks = siteConfig.socialLinks;
 const base = import.meta.env.BASE_URL;
 ---
 
@@ -25,8 +27,14 @@ const base = import.meta.env.BASE_URL;
 					/>
 				</div>
 
-				<div class="prose text-gray-700 mb-6">
-					<AboutPage />
+				<div>
+					<div class="prose text-gray-700 mb-6">
+						<AboutPage />
+					</div>
+
+					<div class="flex space-x-6">
+						{socialLinks.map((socialLink) => <SocialIcon socialLink={socialLink} />)}
+					</div>
 				</div>
 			</div>
 		</div>

@@ -1,5 +1,5 @@
 import type { AstroInstance } from 'astro';
-import { Github, Instagram } from 'lucide-astro';
+import { Github, Instagram, Mail, Facebook } from 'lucide-astro';
 
 export interface SocialLink {
 	name: string;
@@ -18,5 +18,16 @@ export default {
 			url: 'https://www.instagram.com',
 			icon: Instagram,
 		} as SocialLink,
+		{
+			name: 'Facebook',
+			url: 'https://www.facebook.com',
+			icon: Facebook,
+		} as SocialLink,
+		{
+			name: 'Email',
+			url: 'mailto:tmp@gmail.com',
+			icon: Mail,
+		} as SocialLink,
+	
 	],
 };
