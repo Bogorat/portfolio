@@ -42,15 +42,15 @@ const images = await getImages({ collection: featuredCollectionId });
 		<p class="mt-4 text-lg text-white/90 drop-shadow">A place to showcase my photography</p>
 	</div>
 
-	<button @click="current = (current - 1 + slides) % slides" class="absolute left-4 top-1/2 -translate-y-1/2 z-20 text-white/80 hover:text-white text-4xl md:text-white/80" aria-label="Photo précédente">‹</button>
-	<button @click="current = (current + 1) % slides" class="absolute right-4 top-1/2 -translate-y-1/2 z-20 text-white/80 hover:text-white text-4xl md:text-white/80" aria-label="Photo suivante">›</button>
+	<button @click="current = (current - 1 + slides) % slides" class="absolute left-4 top-1/2 -translate-y-1/2 z-20 text-4xl transition-opacity hover:opacity-70 text-[color:var(--carousel-color-mobile)] md:text-[color:var(--carousel-color)]" aria-label="Photo précédente">‹</button>
+	<button @click="current = (current + 1) % slides" class="absolute right-4 top-1/2 -translate-y-1/2 z-20 text-4xl transition-opacity hover:opacity-70 text-[color:var(--carousel-color-mobile)] md:text-[color:var(--carousel-color)]" aria-label="Photo suivante">›</button>
 
 	<div class="absolute bottom-4 md:bottom-8 left-0 right-0 flex justify-center gap-2 z-20">
 		{images.map((_, index) => (
 			<button
 				@click={`current = ${index}`}
-				:class={`current === ${index} ? 'bg-gray-800 md:bg-white w-6' : 'bg-gray-400 md:bg-white/50'`}
-				class="h-2 rounded-full w-2 transition-all"
+				:class={`current === ${index} ? 'opacity-100 w-6' : 'opacity-40'`}
+				class="h-2 rounded-full w-2 transition-all bg-[color:var(--carousel-color-mobile)] md:bg-[color:var(--carousel-color)]"
 				aria-label={`Aller à la photo ${index + 1}`}
 			/>
 		))}
