@@ -7,6 +7,24 @@ import siteConfig from '../../site.config.mjs';
 const profileImage = siteConfig.profileImage;
 const socialLinks = siteConfig.socialLinks;
 const base = import.meta.env.BASE_URL;
+
+
+const awards = [
+	{
+		image: 'nights_out_by_deerarylide.jpg',
+		caption: 'Nights out - Daily Deviation Award',
+		url: 'https://www.deviantart.com/deerarylide/art/Nights-Out-531616303',
+		quote: 'There\'s something incredibly intriguing and poignant about Nights Out by Arylide in which darkness and light contrast both literally and metaphorically in ways the viewer is open to interpret',
+		author: 'Devitant Art Staff',
+	},
+	{
+		image: 'where_i_live_by_deerarylide.jpg',
+		caption: 'Where I live - Daily Deviation Award',
+		url: 'https://www.deviantart.com/deerarylide/art/Where-i-live-434828931',
+		quote: 'This is just one of the many soft, delicate and beautiful floral photographs from her gallery',
+		author: 'Deviant Art Staff',
+	},
+];
 ---
 
 <MainLayout>
@@ -16,6 +34,7 @@ const base = import.meta.env.BASE_URL;
 				<h1 class="text-4xl md:text-5xl font-bold mb-4">About Me</h1>
 			</div>
 
+			<!-- Photo + texte -->
 			<div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
 				<div>
 					<img
@@ -27,15 +46,73 @@ const base = import.meta.env.BASE_URL;
 					/>
 				</div>
 
-				<div>
-					<div class="prose text-gray-700 mb-6">
-						<AboutPage />
-					</div>
-
-					<div class="flex space-x-6">
-						{socialLinks.map((socialLink) => <SocialIcon socialLink={socialLink} />)}
-					</div>
+				<div class="prose text-gray-700 mb-6">
+					<AboutPage />
 				</div>
+			</div>
+
+			<!-- Awards & distinctions -->
+			<div class="mt-24">
+				<h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Awards &amp; distinctions</h2>
+			<div class="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-16 max-w-4xl mx-auto">
+			{awards.map((award) => (
+				<div>
+					<a
+						href={award.url}
+						target="_blank"
+						rel="noopener noreferrer"
+						class="group block"
+					>
+						<figure>
+							<img
+								src={`${base}/images/awards/${award.image}`}
+								alt={award.caption}
+								class="w-full aspect-[4/3] object-cover rounded-lg shadow-md transition-shadow duration-200 group-hover:shadow-xl"
+								loading="lazy"
+							/>
+							<figcaption class="mt-3 text-center text-gray-600 group-hover:text-gray-900 group-hover:underline transition-colors">
+								{award.caption}
+							</figcaption>
+						</figure>
+					</a>
+
+					{award.quote && (
+						<blockquote class="mt-8">
+							<div class="relative px-10 py-4">
+								<span
+									aria-hidden="true"
+									class="absolute left-0 -top-2 font-serif text-6xl leading-none text-gray-300 select-none"
+								>
+									“
+								</span>
+
+								<p class="text-center font-serif text-lg italic leading-relaxed text-gray-700">
+									{award.quote}
+								</p>
+
+								<span
+									aria-hidden="true"
+									class="absolute right-0 -bottom-6 font-serif text-6xl leading-none text-gray-300 select-none"
+								>
+									”
+								</span>
+							</div>
+
+							{award.author && (
+								<footer class="mt-6 text-center text-sm tracking-wide text-gray-500">
+									— {award.author}
+								</footer>
+							)}
+						</blockquote>
+					)}
+				</div>
+			))}
+			</div>	
+			</div>
+
+			<!-- Réseaux sociaux -->
+			<div class="mt-20 pt-12 border-t border-gray-100 flex justify-center space-x-6">
+				{socialLinks.map((socialLink) => <SocialIcon socialLink={socialLink} />)}
 			</div>
 		</div>
 	</section>
