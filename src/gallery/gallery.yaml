@@ -2,99 +2,279 @@ collections:
   - id: Ary
     name: Ary
 images:
-  - path: Ary/462169930_2922175317946508_6140021918078273768_n.jpg
+  - path: Ary/Cult logic.jpg
     meta:
-      title: 462169930 2922175317946508 6140021918078273768 N
+      title: Cult Logic
+      description: ''
+      collections:
+        - Ary
+  - path: Ary/Day Old Blue.jpg
+    meta:
+      title: Day Old Blue
+      description: ''
+      collections:
+        - Ary
+  - path: Ary/Days like these.jpg
+    meta:
+      title: Days Like These
+      description: ''
+      collections:
+        - Ary
+  - path: Ary/Dead of Winter.jpg
+    meta:
+      title: Dead Of Winter
+      description: ''
+      collections:
+        - Ary
+  - path: Ary/Deer and Arylide III - new edit.jpg
+    meta:
+      title: Deer And Arylide III New Edit
+      description: ''
+      collections:
+        - Ary
+  - path: Ary/Home is wherever i'm with you new edit.jpg
+    meta:
+      title: Home Is Wherever I'm With You New Edit
+      description: ''
+      collections:
+        - Ary
+  - path: Ary/Inès.jpg
+    meta:
+      title: Inès
       description: ''
       collections:
         - Ary
         - featured
-    exif: {}
-  - path: Ary/462365321_2922305531266820_2127497303084429553_n.jpg
+  - path: Ary/Lise II.jpg
     meta:
-      title: 462365321 2922305531266820 2127497303084429553 N
+      title: Lise II
+      description: ''
+      collections:
+        - Ary
+  - path: Ary/Lise III.jpg
+    meta:
+      title: Lise III
+      description: ''
+      collections:
+        - Ary
+  - path: Ary/Lise IV.jpg
+    meta:
+      title: Lise IV
       description: ''
       collections:
         - Ary
         - featured
-    exif: {}
-  - path: Ary/494088987_3120983334732371_5344041519421604340_n.jpg
+  - path: Ary/Lise.jpg
     meta:
-      title: 494088987 3120983334732371 5344041519421604340 N
+      title: Lise
+      description: ''
+      collections:
+        - Ary
+  - path: Ary/Littlest Things.jpg
+    meta:
+      title: Littlest Things
+      description: ''
+      collections:
+        - Ary
+  - path: Ary/Lullaby.jpg
+    meta:
+      title: Lullaby
+      description: ''
+      collections:
+        - Ary
+  - path: Ary/Matriochka II.jpg
+    meta:
+      title: Matriochka II
+      description: ''
+      collections:
+        - Ary
+  - path: Ary/Matriochka IV.jpg
+    meta:
+      title: Matriochka Iv
+      description: ''
+      collections:
+        - Ary
+  - path: Ary/New horizons II.jpg
+    meta:
+      title: New Horizons II
       description: ''
       collections:
         - Ary
         - featured
-    exif: {}
-  - path: Ary/494776875_3123793064451398_586303117700196971_n.jpg
+  - path: Ary/New horizons III 2-2.jpg
     meta:
-      title: 494776875 3123793064451398 586303117700196971 N
+      title: New Horizons III 2 2
+      description: ''
+      collections:
+        - Ary
+  - path: Ary/New horizons IV.jpg
+    meta:
+      title: New Horizons IV
       description: ''
       collections:
         - Ary
         - featured
-    exif: {}
-  - path: Ary/502538593_3156647594499278_2521879491670070799_n.jpg
+  - path: Ary/Nights Out.jpg
     meta:
-      title: 502538593 3156647594499278 2521879491670070799 N
+      title: Nights Out
+      description: ''
+      collections:
+        - Ary
+  - path: Ary/November has come.jpg
+    meta:
+      title: November Has Come
+      description: ''
+      collections:
+        - Ary
+  - path: Ary/Paola II edit.jpg
+    meta:
+      title: Paola II Edit
+      description: ''
+      collections:
+        - Ary
+  - path: Ary/Paola.jpg
+    meta:
+      title: Paola
+      description: ''
+      collections:
+        - Ary
+  - path: Ary/Paper boat.jpg
+    meta:
+      title: Paper Boat
       description: ''
       collections:
         - Ary
         - featured
-    exif: {}
-  - path: Ary/504143123_3163541610476543_3105286634856334208_n.jpg
+  - path: Ary/Pretty Donut III.jpg
     meta:
-      title: 504143123 3163541610476543 3105286634856334208 N
+      title: Pretty Donut III
+      description: ''
+      collections:
+        - Ary
+  - path: Ary/Pretty Donut.jpg
+    meta:
+      title: Pretty Donut
+      description: ''
+      collections:
+        - Ary
+ 
+  - path: Ary/Reminiscence II.jpg
+    meta:
+      title: Reminiscence II
+      description: ''
+      collections:
+        - Ary
+ 
+  - path: Ary/Reminiscence III.jpg
+    meta:
+      title: Reminiscence III
+      description: ''
+      collections:
+        - Ary
+ 
+  - path: Ary/Reminiscence V.jpg
+    meta:
+      title: Reminiscence V
+      description: ''
+      collections:
+        - Ary
+ 
+  - path: Ary/Reminiscence.jpg
+    meta:
+      title: Reminiscence
       description: ''
       collections:
         - Ary
         - featured
-    exif: {}
-  - path: Ary/504228235_3167744650056239_6393655001539485151_n.jpg
+ 
+  - path: Ary/Slow magic.jpg
     meta:
-      title: 504228235 3167744650056239 6393655001539485151 N
+      title: Slow Magic
       description: ''
       collections:
         - Ary
-        - featured
-    exif: {}
-  - path: Ary/504720884_3165589883605049_9050861081827432995_n.jpg
+ 
+  - path: Ary/Somewhere else.jpg
     meta:
-      title: 504720884 3165589883605049 9050861081827432995 N
+      title: Somewhere Else
       description: ''
       collections:
         - Ary
-        - featured
-    exif: {}
-  - path: Ary/504956653_3165589863605051_5488371680450012855_n.jpg
+ 
+  - path: Ary/Sophia.jpg
     meta:
-      title: 504956653 3165589863605051 5488371680450012855 N
+      title: Sophia
       description: ''
       collections:
         - Ary
-        - featured
-    exif: {}
-  - path: Ary/505145404_3166679950162709_8341000279041218307_n.jpg
+ 
+  - path: Ary/Sunny Bunny Blues.jpg
     meta:
-      title: 505145404 3166679950162709 8341000279041218307 N
+      title: Sunny Bunny Blues
       description: ''
       collections:
         - Ary
-        - featured
-    exif: {}
-  - path: Ary/505310826_3167840790046625_6423917274038068831_n.jpg
+ 
+  - path: Ary/The Keeper III.jpg
     meta:
-      title: 505310826 3167840790046625 6423917274038068831 N
+      title: The Keeper III
       description: ''
       collections:
         - Ary
-        - featured
-    exif: {}
-  - path: Ary/505810348_3169091533254884_3409865282338147510_n.jpg
+ 
+  - path: Ary/The Keeper.jpg
     meta:
-      title: 505810348 3169091533254884 3409865282338147510 N
+      title: The Keeper
       description: ''
       collections:
         - Ary
-        - featured
-    exif: {}
+ 
+  - path: Ary/The great Escape.jpg
+    meta:
+      title: The Great Escape
+      description: ''
+      collections:
+        - Ary
+ 
+  - path: Ary/Traffic in the sky.jpg
+    meta:
+      title: Traffic In The Sky
+      description: ''
+      collections:
+        - Ary
+
+  - path: Ary/What the water gave me II.jpg
+    meta:
+      title: What The Water Gave Me II
+      description: ''
+      collections:
+        - Ary
+ 
+  - path: Ary/What the water gave me.jpg
+    meta:
+      title: What The Water Gave Me
+      description: ''
+      collections:
+        - Ary
+ 
+  - path: Ary/Where i live.jpg
+    meta:
+      title: Where I Live
+      description: ''
+      collections:
+        - Ary
+ 
+  - path: Ary/Young folks.jpg
+    meta:
+      title: Young Folks
+      description: ''
+      collections:
+        - Ary
+ 
+  - path: Ary/Your wish.jpg
+    meta:
+      title: Your Wish
+      description: ''
+      collections:
+        - Ary
+ 
