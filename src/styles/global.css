@@ -14,6 +14,46 @@
 	font-display: swap;
 }
 
+@font-face {
+	font-family: 'Brososkon90s';
+	src: url('../fonts/brososkon90s-light.otf') format('opentype');
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Brososkon90s';
+	src: url('../fonts/brososkon90s-regular.otf') format('opentype');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Brososkon90s Expanded';
+	src: url('../fonts/brososkon90s-expanded.otf') format('opentype');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Brososkon90s Extraexpanded';
+	src: url('../fonts/brososkon90s-extraexpanded.otf') format('opentype');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Qeilab';
+	src: url('../fonts/qeilab.otf') format('opentype');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
 
 @layer base {
 	:root {
@@ -37,13 +77,13 @@
 		--input: 240 5.9% 90%;
 		--ring: 240 10% 3.9%;
 		--radius: 0.5rem;
-		--carousel-color: #e9d66b; /* remplace par la couleur de ton choix */
+		--carousel-color: #ffffff; /* remplace par la couleur de ton choix */
 		--carousel-color-mobile: #1f2937; /* mobile : sur fond blanc */
 	}
 
 	body {
 		@apply bg-background text-foreground font-sans;
-		font-family: 'Inter', sans-serif;
+		font-family: 'Brososkon90s Expanded', sans-serif;
 	}
 
 	h1,
@@ -52,7 +92,7 @@
 	h4,
 	h5,
 	h6 {
-		font-family: 'Playfair Display', serif;
+		font-family: 'Qeilab', sans-serif;
 	}
 	img {
 		-webkit-user-drag: none;
@@ -68,8 +108,10 @@
 	.container-custom {
 		@apply max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8;
 	}
+
 	.nav-link {
-		@apply relative text-base font-medium text-gray-800 transition-all duration-300 hover:text-black;
+		@apply relative text-base font-normal text-gray-800 transition-all duration-300 hover:text-black;
+		font-family: 'Qeilab', sans-serif;
 	}
 
 	.nav-link::after {
@@ -83,8 +125,10 @@
 	.nav-link:hover::after {
 		@apply w-full;
 	}
+
 	.hero-subtitle {
-		font-family: 'Playfair Display', serif;
+		font-family: 'Brososkon90s', sans-serif;
+		font-weight: 400;
 		letter-spacing: 0.02em;
 	}
 }

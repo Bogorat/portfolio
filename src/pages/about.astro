@@ -12,17 +12,17 @@ const base = import.meta.env.BASE_URL;
 const awards = [
 	{
 		image: 'nights_out_by_deerarylide.jpg',
-		caption: 'Nights out - Daily Deviation Award',
+		caption: 'Daily Deviation',
 		url: 'https://www.deviantart.com/deerarylide/art/Nights-Out-531616303',
 		quote: 'There\'s something incredibly intriguing and poignant about Nights Out by Arylide in which darkness and light contrast both literally and metaphorically in ways the viewer is open to interpret',
-		author: 'Devitant Art Staff',
+		author: 'DevitantArt curator',
 	},
 	{
 		image: 'where_i_live_by_deerarylide.jpg',
-		caption: 'Where I live - Daily Deviation Award',
+		caption: 'Daily Deviation',
 		url: 'https://www.deviantart.com/deerarylide/art/Where-i-live-434828931',
 		quote: 'This is just one of the many soft, delicate and beautiful floral photographs from her gallery',
-		author: 'Deviant Art Staff',
+		author: 'DeviantArt curator',
 	},
 ];
 ---
@@ -31,7 +31,7 @@ const awards = [
 	<section class="pt-32 pb-20">
 		<div class="container-custom">
 			<div class="max-w-2xl mx-auto text-center mb-16">
-				<h1 class="text-4xl md:text-5xl font-bold mb-4">About</h1>
+				<h1 class="text-4xl md:text-5xl font-bold mb-4">about</h1>
 			</div>
 
 			<!-- Photo + texte -->
@@ -40,9 +40,9 @@ const awards = [
 					<img
 						src=`${base}/images/${profileImage}`
 						alt="Profile image"
-						class="w-full h-auto rounded-lg shadow-lg border-8 my-4 border-white md:p-4"
-						width="720"
-						height="720"
+						class="w-auto max-w-full max-h-[600px] mx-auto h-auto shadow-lg border-8 my-4 border-white md:p-4"
+						width="800"
+						height="1200"
 					/>
 				</div>
 
@@ -53,7 +53,7 @@ const awards = [
 
 			<!-- Awards & distinctions -->
 			<div class="mt-24">
-				<h2 class="text-3xl md:text-4xl font-bold text-center mb-20">Awards &amp; distinctions</h2>
+				<h2 class="text-3xl md:text-4xl font-bold text-center mb-20">awards &amp; distinctions</h2>
 			<div class="grid grid-cols-1 sm:grid-cols-2 gap-x-[100px] gap-y-16 max-w-2xl mx-auto">
 			{awards.map((award) => (
 				<div>
@@ -67,7 +67,7 @@ const awards = [
 							<img
 								src={`${base}/images/awards/${award.image}`}
 								alt={award.caption}
-								class="w-full aspect-square object-cover rounded-lg shadow-md transition-shadow duration-200 group-hover:shadow-xl"
+								class="w-full aspect-square object-cover shadow-md transition-shadow duration-200 group-hover:shadow-xl"
 								loading="lazy"
 							/>
 							<figcaption class="mt-3 text-center text-gray-600 group-hover:text-gray-900 group-hover:underline transition-colors">
@@ -86,7 +86,7 @@ const awards = [
 									“
 								</span>
 
-								<p class="text-center font-serif text-lg italic leading-relaxed text-gray-700">
+								<p class="text-center text-lg italic leading-relaxed text-gray-700">
 									{award.quote}
 								</p>
 

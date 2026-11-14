@@ -37,10 +37,8 @@ const images = await getImages({ collection: featuredCollectionId });
 	))}
 
 	<!-- Titre en overlay, desktop uniquement -->
-	<div class="hidden md:flex absolute inset-0 flex-col items-center justify-center text-center z-10 px-4">
-		<!-- <h1 class="text-4xl md:text-6xl font-bold text-white drop-shadow-lg hero-title">{owner} Photography</h1> -->
-		<p class="mt-4 text-lg text-white/90 drop-shadow hero-subtitle">Paris, FR</p>
-		<p class="mt-4 text-lg text-white/90 drop-shadow hero-subtitle">Sydney, AU</p>
+	<div class="hidden md:flex absolute inset-0 flex-col items-center justify-end pb-25 text-center z-10 px-4">
+		<p class="text-xl text-white/90 drop-shadow hero-subtitle">PARIS, FR / SYDNEY, AU</p>
 	</div>
 
 	<button @click="current = (current - 1 + slides) % slides" class="absolute left-4 top-1/2 -translate-y-1/2 z-20 text-4xl transition-opacity hover:opacity-70 text-[color:var(--carousel-color-mobile)] md:text-[color:var(--carousel-color)]" aria-label="Photo précédente">‹</button>
@@ -51,7 +49,7 @@ const images = await getImages({ collection: featuredCollectionId });
 			<button
 				@click={`current = ${index}`}
 				:class={`current === ${index} ? 'opacity-100 w-6' : 'opacity-40'`}
-				class="h-2 rounded-full w-2 transition-all bg-[color:var(--carousel-color-mobile)] md:bg-[color:var(--carousel-color)]"
+				class="h-2 w-2 transition-all bg-[color:var(--carousel-color-mobile)] md:bg-[color:var(--carousel-color)]"
 				aria-label={`Aller à la photo ${index + 1}`}
 			/>
 		))}
@@ -60,7 +58,5 @@ const images = await getImages({ collection: featuredCollectionId });
 
 <!-- Titre sous l'image, mobile uniquement -->
 <div class="md:hidden text-center px-4 py-8 bg-white">
-	<!-- <h1 class="text-3xl font-bold text-gray-900 hero-title">{owner} Photography</h1> -->
-	<p class="mt-3 text-base text-gray-600 hero-subtitle">Paris, FR</p>
-	<p class="mt-3 text-base text-gray-600 hero-subtitle">Sydney, AU</p>
+	<p class="mt-3 text-base text-gray-600 hero-subtitle">PARIS, FR / SYDNEY, AU</p>
 </div>

@@ -11,7 +11,7 @@ export default {
 	title: 'arylide',
 	favicon: 'favicon.ico',
 	owner: 'arylide',
-	profileImage: 'profile.jpg',
+	profileImage: 'about_profile.jpg',
 	socialLinks: [
 		{
 			name: 'Instagram',
