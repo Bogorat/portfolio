@@ -9,16 +9,23 @@ images:
       collections:
         - Ary
 
-  - path: Ary/Backyard Gardener III.jpg
+  - path: Ary/What the water gave me II.jpg
     meta:
-      title: Backyard Gardener Iii
+      title: What The Water Gave Me Ii
       description: ''
       collections:
         - Ary
 
-  - path: Ary/Backyard Gardener IV.jpg
+  - path: Ary/What the water gave me III.jpg
     meta:
-      title: Backyard Gardener Iv
+      title: What The Water Gave Me Iii
+      description: ''
+      collections:
+        - Ary
+
+  - path: Ary/What the water gave me.jpg
+    meta:
+      title: What The Water Gave Me
       description: ''
       collections:
         - Ary
@@ -207,6 +214,13 @@ images:
       collections:
         - Ary
 
+  - path: Ary/Nights Out.jpg
+    meta:
+      title: Nights Out
+      description: ''
+      collections:
+        - Ary
+
   - path: Ary/Maeva III.jpg
     meta:
       title: Maeva Iii
@@ -268,13 +282,6 @@ images:
   - path: Ary/New horizons.jpg
     meta:
       title: New Horizons
-      description: ''
-      collections:
-        - Ary
-
-  - path: Ary/Nights Out.jpg
-    meta:
-      title: Nights Out
       description: ''
       collections:
         - Ary
@@ -379,13 +386,6 @@ images:
       collections:
         - Ary
 
-  - path: Ary/Sophia.jpg
-    meta:
-      title: Sophia
-      description: ''
-      collections:
-        - Ary
-
   - path: Ary/Sunny Bunny Blues.jpg
     meta:
       title: Sunny Bunny Blues
@@ -428,23 +428,16 @@ images:
       collections:
         - Ary
 
-  - path: Ary/What the water gave me II.jpg
+  - path: Ary/Backyard Gardener III.jpg
     meta:
-      title: What The Water Gave Me Ii
+      title: Backyard Gardener Iii
       description: ''
       collections:
         - Ary
 
-  - path: Ary/What the water gave me III.jpg
+  - path: Ary/Backyard Gardener IV.jpg
     meta:
-      title: What The Water Gave Me Iii
-      description: ''
-      collections:
-        - Ary
-
-  - path: Ary/What the water gave me.jpg
-    meta:
-      title: What The Water Gave Me
+      title: Backyard Gardener Iv
       description: ''
       collections:
         - Ary
@@ -476,4 +469,3 @@ images:
       description: ''
       collections:
         - Ary
-
