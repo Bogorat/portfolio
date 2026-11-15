@@ -2,6 +2,27 @@ collections:
   - id: Ary
     name: Ary
 images:
+  - path: Ary/Animal.jpg
+    meta:
+      title: Animal
+      description: ''
+      collections:
+        - Ary
+
+  - path: Ary/Backyard Gardener III.jpg
+    meta:
+      title: Backyard Gardener Iii
+      description: ''
+      collections:
+        - Ary
+
+  - path: Ary/Backyard Gardener IV.jpg
+    meta:
+      title: Backyard Gardener Iv
+      description: ''
+      collections:
+        - Ary
+
   - path: Ary/Cult logic.jpg
     meta:
       title: Cult Logic
@@ -30,45 +51,129 @@ images:
       collections:
         - Ary
 
+  - path: Ary/Deer and Arylide II.jpg
+    meta:
+      title: Deer And Arylide Ii
+      description: ''
+      collections:
+        - Ary
+
   - path: Ary/Deer and Arylide III - new edit.jpg
     meta:
-      title: Deer And Arylide III New Edit
+      title: Deer And Arylide Iii New Edit
+      description: ''
+      collections:
+        - Ary
+
+  - path: Ary/Dreamy Bruises II.jpg
+    meta:
+      title: Dreamy Bruises Ii
+      description: ''
+      collections:
+        - Ary
+
+  - path: Ary/Dreamy Bruises III.jpg
+    meta:
+      title: Dreamy Bruises Iii
+      description: ''
+      collections:
+        - Ary
+
+  - path: Ary/Dreamy Bruises.jpg
+    meta:
+      title: Dreamy Bruises
+      description: ''
+      collections:
+        - Ary
+
+  - path: Ary/Everything goes my way dA.jpg
+    meta:
+      title: Everything Goes My Way Da
+      description: ''
+      collections:
+        - Ary
+
+  - path: Ary/Hanna II.jpg
+    meta:
+      title: Hanna Ii
+      description: ''
+      collections:
+        - Ary
+
+  - path: Ary/Hanna III.jpg
+    meta:
+      title: Hanna Iii
+      description: ''
+      collections:
+        - Ary
+
+  - path: Ary/Hanna IV.jpg
+    meta:
+      title: Hanna Iv
+      description: ''
+      collections:
+        - Ary
+
+  - path: Ary/Hanna diptych.jpg
+    meta:
+      title: Hanna Diptych
+      description: ''
+      collections:
+        - Ary
+
+  - path: Ary/Hanna.jpg
+    meta:
+      title: Hanna
       description: ''
       collections:
         - Ary
 
   - path: Ary/Home is wherever i'm with you new edit.jpg
     meta:
-      title: Home Is Wherever I'm With You New Edit
+      title: Home Is Wherever I M With You New Edit
+      description: ''
+      collections:
+        - Ary
+
+  - path: Ary/Innocent world.jpg
+    meta:
+      title: Innocent World
       description: ''
       collections:
         - Ary
 
   - path: Ary/Inès.jpg
     meta:
-      title: Inès
+      title: In S
       description: ''
       collections:
         - Ary
         - featured
 
+  - path: Ary/Julien Bounce.jpg
+    meta:
+      title: Julien Bounce
+      description: ''
+      collections:
+        - Ary
+
   - path: Ary/Lise II.jpg
     meta:
-      title: Lise II
+      title: Lise Ii
       description: ''
       collections:
         - Ary
 
   - path: Ary/Lise III.jpg
     meta:
-      title: Lise III
+      title: Lise Iii
       description: ''
       collections:
         - Ary
 
   - path: Ary/Lise IV.jpg
     meta:
-      title: Lise IV
+      title: Lise Iv
       description: ''
       collections:
         - Ary
@@ -88,6 +193,13 @@ images:
       collections:
         - Ary
 
+  - path: Ary/Lullaby III.jpg
+    meta:
+      title: Lullaby Iii
+      description: ''
+      collections:
+        - Ary
+
   - path: Ary/Lullaby.jpg
     meta:
       title: Lullaby
@@ -95,9 +207,16 @@ images:
       collections:
         - Ary
 
+  - path: Ary/Maeva III.jpg
+    meta:
+      title: Maeva Iii
+      description: ''
+      collections:
+        - Ary
+
   - path: Ary/Matriochka II.jpg
     meta:
-      title: Matriochka II
+      title: Matriochka Ii
       description: ''
       collections:
         - Ary
@@ -109,28 +228,49 @@ images:
       collections:
         - Ary
 
+  - path: Ary/Matriochka.jpg
+    meta:
+      title: Matriochka
+      description: ''
+      collections:
+        - Ary
+
   - path: Ary/New horizons II.jpg
     meta:
-      title: New Horizons II
+      title: New Horizons Ii
       description: ''
       collections:
         - Ary
         - featured
 
+  - path: Ary/New horizons III 1-2.jpg
+    meta:
+      title: New Horizons Iii 1 2
+      description: ''
+      collections:
+        - Ary
+
   - path: Ary/New horizons III 2-2.jpg
     meta:
-      title: New Horizons III 2 2
+      title: New Horizons Iii 2 2
       description: ''
       collections:
         - Ary
 
   - path: Ary/New horizons IV.jpg
     meta:
-      title: New Horizons IV
+      title: New Horizons Iv
       description: ''
       collections:
         - Ary
         - featured
+
+  - path: Ary/New horizons.jpg
+    meta:
+      title: New Horizons
+      description: ''
+      collections:
+        - Ary
 
   - path: Ary/Nights Out.jpg
     meta:
@@ -148,7 +288,7 @@ images:
 
   - path: Ary/Paola II edit.jpg
     meta:
-      title: Paola II Edit
+      title: Paola Ii Edit
       description: ''
       collections:
         - Ary
@@ -170,7 +310,7 @@ images:
 
   - path: Ary/Pretty Donut III.jpg
     meta:
-      title: Pretty Donut III
+      title: Pretty Donut Iii
       description: ''
       collections:
         - Ary
@@ -184,14 +324,21 @@ images:
 
   - path: Ary/Reminiscence II.jpg
     meta:
-      title: Reminiscence II
+      title: Reminiscence Ii
       description: ''
       collections:
         - Ary
 
   - path: Ary/Reminiscence III.jpg
     meta:
-      title: Reminiscence III
+      title: Reminiscence Iii
+      description: ''
+      collections:
+        - Ary
+
+  - path: Ary/Reminiscence IV.jpg
+    meta:
+      title: Reminiscence Iv
       description: ''
       collections:
         - Ary
@@ -210,6 +357,13 @@ images:
       collections:
         - Ary
         - featured
+
+  - path: Ary/Slow magic II.jpg
+    meta:
+      title: Slow Magic Ii
+      description: ''
+      collections:
+        - Ary
 
   - path: Ary/Slow magic.jpg
     meta:
@@ -239,9 +393,16 @@ images:
       collections:
         - Ary
 
+  - path: Ary/The Keeper II.jpg
+    meta:
+      title: The Keeper Ii
+      description: ''
+      collections:
+        - Ary
+
   - path: Ary/The Keeper III.jpg
     meta:
-      title: The Keeper III
+      title: The Keeper Iii
       description: ''
       collections:
         - Ary
@@ -269,7 +430,14 @@ images:
 
   - path: Ary/What the water gave me II.jpg
     meta:
-      title: What The Water Gave Me II
+      title: What The Water Gave Me Ii
+      description: ''
+      collections:
+        - Ary
+
+  - path: Ary/What the water gave me III.jpg
+    meta:
+      title: What The Water Gave Me Iii
       description: ''
       collections:
         - Ary
@@ -298,174 +466,6 @@ images:
   - path: Ary/Your wish.jpg
     meta:
       title: Your Wish
-      description: ''
-      collections:
-        - Ary
-
-  - path: Ary/Animal.jpg
-    meta:
-      title: Animal
-      description: ''
-      collections:
-        - Ary
-
-  - path: Ary/Backyard Gardener III.jpg
-    meta:
-      title: Backyard Gardener III
-      description: ''
-      collections:
-        - Ary
-
-  - path: Ary/Backyard Gardener IV.jpg
-    meta:
-      title: Backyard Gardener IV
-      description: ''
-      collections:
-        - Ary
-
-  - path: Ary/Deer and Arylide II.jpg
-    meta:
-      title: Deer And Arylide II
-      description: ''
-      collections:
-        - Ary
-
-  - path: Ary/Dreamy Bruises II.jpg
-    meta:
-      title: Dreamy Bruises II
-      description: ''
-      collections:
-        - Ary
-
-  - path: Ary/Dreamy Bruises III.jpg
-    meta:
-      title: Dreamy Bruises III
-      description: ''
-      collections:
-        - Ary
-
-  - path: Ary/Dreamy Bruises.jpg
-    meta:
-      title: Dreamy Bruises
-      description: ''
-      collections:
-        - Ary
-
-  - path: Ary/Everything goes my way dA.jpg
-    meta:
-      title: Everything Goes My Way Da
-      description: ''
-      collections:
-        - Ary
-
-  - path: Ary/Hanna II.jpg
-    meta:
-      title: Hanna II
-      description: ''
-      collections:
-        - Ary
-
-  - path: Ary/Hanna III.jpg
-    meta:
-      title: Hanna III
-      description: ''
-      collections:
-        - Ary
-
-  - path: Ary/Hanna IV.jpg
-    meta:
-      title: Hanna IV
-      description: ''
-      collections:
-        - Ary
-
-  - path: Ary/Hanna diptych.jpg
-    meta:
-      title: Hanna Diptych
-      description: ''
-      collections:
-        - Ary
-
-  - path: Ary/Hanna.jpg
-    meta:
-      title: Hanna
-      description: ''
-      collections:
-        - Ary
-
-  - path: Ary/Innocent world.jpg
-    meta:
-      title: Innocent World
-      description: ''
-      collections:
-        - Ary
-
-  - path: Ary/Julien Bounce.jpg
-    meta:
-      title: Julien Bounce
-      description: ''
-      collections:
-        - Ary
-
-  - path: Ary/Lullaby III.jpg
-    meta:
-      title: Lullaby III
-      description: ''
-      collections:
-        - Ary
-
-  - path: Ary/Maeva III.jpg
-    meta:
-      title: Maeva III
-      description: ''
-      collections:
-        - Ary
-
-  - path: Ary/Matriochka.jpg
-    meta:
-      title: Matriochka
-      description: ''
-      collections:
-        - Ary
-
-  - path: Ary/New horizons III 1-2.jpg
-    meta:
-      title: New Horizons III 1 2
-      description: ''
-      collections:
-        - Ary
-
-  - path: Ary/New horizons.jpg
-    meta:
-      title: New Horizons
-      description: ''
-      collections:
-        - Ary
-
-  - path: Ary/Reminiscence IV.jpg
-    meta:
-      title: Reminiscence IV
-      description: ''
-      collections:
-        - Ary
-
-  - path: Ary/Slow magic II.jpg
-    meta:
-      title: Slow Magic II
-      description: ''
-      collections:
-        - Ary
-
-  - path: Ary/The Keeper II.jpg
-    meta:
-      title: The Keeper II
-      description: ''
-      collections:
-        - Ary
-
-  - path: Ary/What the water gave me III.jpg
-    meta:
-      title: What The Water Gave Me III
       description: ''
       collections:
         - Ary
