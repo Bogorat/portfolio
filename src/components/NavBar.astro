@@ -2,11 +2,10 @@
 import siteConfig from '../../site.config.mjs';
 
 const title = siteConfig.title;
-
-const base = import.meta.env.BASE_URL;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const isHome = Astro.url.pathname.replace(/\/$/, '') === base.replace(/\/$/, '');
 const menuItems = [
-	{ name: 'HOME', link: `${base}` },
+	{ name: 'HOME', link: `${base}/` },
 	{ name: 'GALLERY', link: `${base}/collections` },
 	{ name: 'ABOUT', link: `${base}/about` },
 ];
@@ -31,7 +30,7 @@ const menuItems = [
 	:class="scrolled ? 'pt-5 pb-3 bg-white shadow-sm' : 'pt-7 pb-5 bg-transparent'"
 >
 	<div class="container mx-auto flex justify-start items-center gap-10">
-		<a href={base}
+		<a href={`${base}/`}
 			id="logo"
 			class="relative -top-3 text-4xl md:text-6xl font-normal tracking-tight"
 			:class="lightMode ? 'md:text-white' : ''">
