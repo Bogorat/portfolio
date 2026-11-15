@@ -30,11 +30,22 @@ const menuItems = [
 	:class="scrolled ? 'pt-5 pb-3 bg-white shadow-sm' : 'pt-7 pb-5 bg-transparent'"
 >
 	<div class="container mx-auto flex justify-start items-center gap-10">
-		<a href={`${base}/`}
-			id="logo"
-			class="relative -top-3 text-4xl md:text-6xl font-normal tracking-tight"
-			:class="lightMode ? 'md:text-white' : ''">
-			{title}
+		<a href={`${base}/`} id="logo" aria-label={title} class="block">
+			<!-- Logo noir : par défaut et sur mobile -->
+			<img
+				src={`${base}/images/logo-black.svg`}
+				alt={title}
+				class="block relative -top-1 h-10 md:h-16 w-auto"
+				:class="lightMode ? 'md:hidden' : ''"
+			/>
+			<!-- Logo blanc : uniquement sur la home non scrollée, à partir de md -->
+			<img
+				src={`${base}/images/logo-white.svg`}
+				alt=""
+				aria-hidden="true"
+				class="hidden relative -top-1 h-10 md:h-16 w-auto"
+				:class="lightMode ? 'md:block' : ''"
+			/>
 		</a>
 
 		<!-- Desktop Menu -->
