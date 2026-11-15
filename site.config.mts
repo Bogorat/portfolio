@@ -15,17 +15,17 @@ export default {
 	socialLinks: [
 		{
 			name: 'Instagram',
-			url: 'https://www.instagram.com',
+			url: 'https://www.instagram.com/laearylide/',
 			icon: Instagram,
 		} as SocialLink,
 		{
 			name: 'Facebook',
-			url: 'https://www.facebook.com',
+			url: 'https://www.facebook.com/Arylide/',
 			icon: Facebook,
 		} as SocialLink,
 		{
 			name: 'Email',
-			url: 'mailto:tmp@gmail.com',
+			url: 'mailto:contact@arylide.fr',
 			icon: Mail,
 		} as SocialLink,
 	

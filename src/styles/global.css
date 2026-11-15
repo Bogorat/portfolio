@@ -110,7 +110,7 @@
 	}
 
 	.nav-link {
-		@apply relative text-base font-normal text-gray-800 transition-all duration-300 hover:text-black;
+		@apply relative text-base font-bold text-gray-800 transition-all duration-300 hover:text-black;
 		font-family: 'Qeilab', sans-serif;
 	}
 
@@ -130,5 +130,10 @@
 		font-family: 'Brososkon90s', sans-serif;
 		font-weight: 400;
 		letter-spacing: 0.02em;
+	}
+	
+	.footer-text {
+		font-family: 'Brososkon90s Expanded', sans-serif;
+		font-weight: 400;
 	}
 }
