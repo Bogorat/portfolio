@@ -2,13 +2,11 @@
 title: About me
 ---
 
-Hi, I'm Sara Richard 👋
+Hi, I'm Lae Arylide, thanks for stopping by.
 
-I've been a photographer for over 10 years, focusing primarily on landscape and portrait photography. My journey began
-with a simple point-and-shoot camera while traveling through the mountains of Colorado, which sparked a passion that has
-taken me across the globe.
-My approach to photography centers on finding the extraordinary in ordinary moments. I believe that beauty exists
-everywhere – in urban streets, remote wilderness, and human connections. My goal is to capture these fleeting instances
-in a way that allows viewers to see the world through a different lens.
-When I'm not behind the camera, you can find me hiking in national parks, exploring new cities, or enjoying a cup of
-coffee at local cafés while planning my next photo adventure.
+My work as a visual artist is rooted in storytelling, natural light, and raw creative instinct. Based between Paris, France, and Sydney, Australia, I create narrative photography and cinematic worlds that explore the concepts of beauty and poetry anchored in the real world. I take a lot of pride in working with entirely real elements and scenery. Everything you see captured here happened in real life, every face is untouched.
+
+My fine-art work has been recognized internationally, notably as a two-time recipient of the Daily Deviation distinction.
+Before fully dedicating my life to independent art and direction, I spent years navigating the high-stakes landscape of international marketing as a Director in the privacy technology sector. Today, I use that structural experience to try and make a positive difference in the way we create collectively—building uncompromising, ethical creative ecosystems, contributing to the protection of borderless artist communities, and directing cross-media projects that challenge traditional industry blueprints.
+
+Every frame I build is an invitation to contemplate the beauty of metaphors turned poetically literal.
