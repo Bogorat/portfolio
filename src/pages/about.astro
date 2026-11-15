@@ -6,8 +6,7 @@ import siteConfig from '../../site.config.mjs';
 
 const profileImage = siteConfig.profileImage;
 const socialLinks = siteConfig.socialLinks;
-const base = import.meta.env.BASE_URL;
-
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
 const awards = [
 	{
