@@ -28,7 +28,7 @@ const menuItems = [
 	}`}
 	@scroll.window="scrolled = window.scrollY > 50"
 	class="fixed top-0 left-0 w-full z-50 transition-all duration-300"
-	:class="scrolled ? 'py-3 bg-white shadow-sm' : 'py-5 bg-transparent'"
+	:class="scrolled ? 'pt-5 pb-3 bg-white shadow-sm' : 'pt-7 pb-5 bg-transparent'"
 >
 	<div class="container mx-auto flex justify-start items-center gap-10">
 		<a href={base}
@@ -56,7 +56,7 @@ const menuItems = [
 		<!-- Mobile Menu Button -->
 		<button
 			@click="isOpen = !isOpen"
-			class="md:hidden ml-auto focus:outline-none"
+			class="md:hidden ml-auto relative -top-2 focus:outline-none"
 			:class="lightMode ? 'md:text-white text-gray-800' : 'text-gray-800'"
 		>
 			<svg x-show="!isOpen" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
