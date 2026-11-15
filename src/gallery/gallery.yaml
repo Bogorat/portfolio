@@ -8,36 +8,42 @@ images:
       description: ''
       collections:
         - Ary
+
   - path: Ary/Day Old Blue.jpg
     meta:
       title: Day Old Blue
       description: ''
       collections:
         - Ary
+
   - path: Ary/Days like these.jpg
     meta:
       title: Days Like These
       description: ''
       collections:
         - Ary
+
   - path: Ary/Dead of Winter.jpg
     meta:
       title: Dead Of Winter
       description: ''
       collections:
         - Ary
+
   - path: Ary/Deer and Arylide III - new edit.jpg
     meta:
       title: Deer And Arylide III New Edit
       description: ''
       collections:
         - Ary
+
   - path: Ary/Home is wherever i'm with you new edit.jpg
     meta:
       title: Home Is Wherever I'm With You New Edit
       description: ''
       collections:
         - Ary
+
   - path: Ary/Inès.jpg
     meta:
       title: Inès
@@ -45,18 +51,21 @@ images:
       collections:
         - Ary
         - featured
+
   - path: Ary/Lise II.jpg
     meta:
       title: Lise II
       description: ''
       collections:
         - Ary
+
   - path: Ary/Lise III.jpg
     meta:
       title: Lise III
       description: ''
       collections:
         - Ary
+
   - path: Ary/Lise IV.jpg
     meta:
       title: Lise IV
@@ -64,36 +73,42 @@ images:
       collections:
         - Ary
         - featured
+
   - path: Ary/Lise.jpg
     meta:
       title: Lise
       description: ''
       collections:
         - Ary
+
   - path: Ary/Littlest Things.jpg
     meta:
       title: Littlest Things
       description: ''
       collections:
         - Ary
+
   - path: Ary/Lullaby.jpg
     meta:
       title: Lullaby
       description: ''
       collections:
         - Ary
+
   - path: Ary/Matriochka II.jpg
     meta:
       title: Matriochka II
       description: ''
       collections:
         - Ary
+
   - path: Ary/Matriochka IV.jpg
     meta:
       title: Matriochka Iv
       description: ''
       collections:
         - Ary
+
   - path: Ary/New horizons II.jpg
     meta:
       title: New Horizons II
@@ -101,12 +116,14 @@ images:
       collections:
         - Ary
         - featured
+
   - path: Ary/New horizons III 2-2.jpg
     meta:
       title: New Horizons III 2 2
       description: ''
       collections:
         - Ary
+
   - path: Ary/New horizons IV.jpg
     meta:
       title: New Horizons IV
@@ -114,30 +131,35 @@ images:
       collections:
         - Ary
         - featured
+
   - path: Ary/Nights Out.jpg
     meta:
       title: Nights Out
       description: ''
       collections:
         - Ary
+
   - path: Ary/November has come.jpg
     meta:
       title: November Has Come
       description: ''
       collections:
         - Ary
+
   - path: Ary/Paola II edit.jpg
     meta:
       title: Paola II Edit
       description: ''
       collections:
         - Ary
+
   - path: Ary/Paola.jpg
     meta:
       title: Paola
       description: ''
       collections:
         - Ary
+
   - path: Ary/Paper boat.jpg
     meta:
       title: Paper Boat
@@ -145,40 +167,42 @@ images:
       collections:
         - Ary
         - featured
+
   - path: Ary/Pretty Donut III.jpg
     meta:
       title: Pretty Donut III
       description: ''
       collections:
         - Ary
+
   - path: Ary/Pretty Donut.jpg
     meta:
       title: Pretty Donut
       description: ''
       collections:
         - Ary
- 
+
   - path: Ary/Reminiscence II.jpg
     meta:
       title: Reminiscence II
       description: ''
       collections:
         - Ary
- 
+
   - path: Ary/Reminiscence III.jpg
     meta:
       title: Reminiscence III
       description: ''
       collections:
         - Ary
- 
+
   - path: Ary/Reminiscence V.jpg
     meta:
       title: Reminiscence V
       description: ''
       collections:
         - Ary
- 
+
   - path: Ary/Reminiscence.jpg
     meta:
       title: Reminiscence
@@ -186,56 +210,56 @@ images:
       collections:
         - Ary
         - featured
- 
+
   - path: Ary/Slow magic.jpg
     meta:
       title: Slow Magic
       description: ''
       collections:
         - Ary
- 
+
   - path: Ary/Somewhere else.jpg
     meta:
       title: Somewhere Else
       description: ''
       collections:
         - Ary
- 
+
   - path: Ary/Sophia.jpg
     meta:
       title: Sophia
       description: ''
       collections:
         - Ary
- 
+
   - path: Ary/Sunny Bunny Blues.jpg
     meta:
       title: Sunny Bunny Blues
       description: ''
       collections:
         - Ary
- 
+
   - path: Ary/The Keeper III.jpg
     meta:
       title: The Keeper III
       description: ''
       collections:
         - Ary
- 
+
   - path: Ary/The Keeper.jpg
     meta:
       title: The Keeper
       description: ''
       collections:
         - Ary
- 
+
   - path: Ary/The great Escape.jpg
     meta:
       title: The Great Escape
       description: ''
       collections:
         - Ary
- 
+
   - path: Ary/Traffic in the sky.jpg
     meta:
       title: Traffic In The Sky
@@ -249,32 +273,207 @@ images:
       description: ''
       collections:
         - Ary
- 
+
   - path: Ary/What the water gave me.jpg
     meta:
       title: What The Water Gave Me
       description: ''
       collections:
         - Ary
- 
+
   - path: Ary/Where i live.jpg
     meta:
       title: Where I Live
       description: ''
       collections:
         - Ary
- 
+
   - path: Ary/Young folks.jpg
     meta:
       title: Young Folks
       description: ''
       collections:
         - Ary
- 
+
   - path: Ary/Your wish.jpg
     meta:
       title: Your Wish
       description: ''
       collections:
         - Ary
- 
+
+  - path: Ary/Animal.jpg
+    meta:
+      title: Animal
+      description: ''
+      collections:
+        - Ary
+
+  - path: Ary/Backyard Gardener III.jpg
+    meta:
+      title: Backyard Gardener III
+      description: ''
+      collections:
+        - Ary
+
+  - path: Ary/Backyard Gardener IV.jpg
+    meta:
+      title: Backyard Gardener IV
+      description: ''
+      collections:
+        - Ary
+
+  - path: Ary/Deer and Arylide II.jpg
+    meta:
+      title: Deer And Arylide II
+      description: ''
+      collections:
+        - Ary
+
+  - path: Ary/Dreamy Bruises II.jpg
+    meta:
+      title: Dreamy Bruises II
+      description: ''
+      collections:
+        - Ary
+
+  - path: Ary/Dreamy Bruises III.jpg
+    meta:
+      title: Dreamy Bruises III
+      description: ''
+      collections:
+        - Ary
+
+  - path: Ary/Dreamy Bruises.jpg
+    meta:
+      title: Dreamy Bruises
+      description: ''
+      collections:
+        - Ary
+
+  - path: Ary/Everything goes my way dA.jpg
+    meta:
+      title: Everything Goes My Way Da
+      description: ''
+      collections:
+        - Ary
+
+  - path: Ary/Hanna II.jpg
+    meta:
+      title: Hanna II
+      description: ''
+      collections:
+        - Ary
+
+  - path: Ary/Hanna III.jpg
+    meta:
+      title: Hanna III
+      description: ''
+      collections:
+        - Ary
+
+  - path: Ary/Hanna IV.jpg
+    meta:
+      title: Hanna IV
+      description: ''
+      collections:
+        - Ary
+
+  - path: Ary/Hanna diptych.jpg
+    meta:
+      title: Hanna Diptych
+      description: ''
+      collections:
+        - Ary
+
+  - path: Ary/Hanna.jpg
+    meta:
+      title: Hanna
+      description: ''
+      collections:
+        - Ary
+
+  - path: Ary/Innocent world.jpg
+    meta:
+      title: Innocent World
+      description: ''
+      collections:
+        - Ary
+
+  - path: Ary/Julien Bounce.jpg
+    meta:
+      title: Julien Bounce
+      description: ''
+      collections:
+        - Ary
+
+  - path: Ary/Lullaby III.jpg
+    meta:
+      title: Lullaby III
+      description: ''
+      collections:
+        - Ary
+
+  - path: Ary/Maeva III.jpg
+    meta:
+      title: Maeva III
+      description: ''
+      collections:
+        - Ary
+
+  - path: Ary/Matriochka.jpg
+    meta:
+      title: Matriochka
+      description: ''
+      collections:
+        - Ary
+
+  - path: Ary/New horizons III 1-2.jpg
+    meta:
+      title: New Horizons III 1 2
+      description: ''
+      collections:
+        - Ary
+
+  - path: Ary/New horizons.jpg
+    meta:
+      title: New Horizons
+      description: ''
+      collections:
+        - Ary
+
+  - path: Ary/Reminiscence IV.jpg
+    meta:
+      title: Reminiscence IV
+      description: ''
+      collections:
+        - Ary
+
+  - path: Ary/Slow magic II.jpg
+    meta:
+      title: Slow Magic II
+      description: ''
+      collections:
+        - Ary
+
+  - path: Ary/The Keeper II.jpg
+    meta:
+      title: The Keeper II
+      description: ''
+      collections:
+        - Ary
+
+  - path: Ary/What the water gave me III.jpg
+    meta:
+      title: What The Water Gave Me III
+      description: ''
+      collections:
+        - Ary
+
+  - path: Ary/pretty little thing V2.jpg
+    meta:
+      title: Pretty Little Thing V2
+      description: ''
+      collections:
+        - Ary
+
