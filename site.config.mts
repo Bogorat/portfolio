@@ -9,7 +9,7 @@ export interface SocialLink {
 
 export default {
 	title: 'arylide',
-	favicon: 'favicon.ico',
+	favicon: 'favicon.png',
 	owner: 'arylide',
 	profileImage: 'about_profile.jpg',
 	socialLinks: [
